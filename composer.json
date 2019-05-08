@@ -1,0 +1,21 @@
+{
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../own_lib",
+            "options": {
+                "symlink": false
+            }
+        }
+    ],
+	"autoload" : {
+		"psr-4" : {
+			"nt98memo\\ownlibuse\\" : "src/nt98memo/ownlibuse/"
+		}
+	},
+	"name" : "nt98memo/ownlibuse",
+	"require" : {
+		"php" : ">=5.6",
+		"nt98memo/ownlib" : "*"
+	}
+}
